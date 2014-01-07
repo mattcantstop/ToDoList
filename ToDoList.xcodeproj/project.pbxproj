@@ -22,6 +22,7 @@
 		17DCCF7B1878AD1D0019703D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DCCF5F1878AD1D0019703D /* CoreData.framework */; };
 		17DCCF831878AD1D0019703D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DCCF811878AD1D0019703D /* InfoPlist.strings */; };
 		17DCCF851878AD1D0019703D /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCCF841878AD1D0019703D /* ToDoListTests.m */; };
+		17DCCF8F1878C7B20019703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DCCF8E1878C7B20019703D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		17DCCF801878AD1D0019703D /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		17DCCF821878AD1D0019703D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17DCCF841878AD1D0019703D /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		17DCCF8E1878C7B20019703D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				17DCCF6A1878AD1D0019703D /* AppDelegate.h */,
 				17DCCF6B1878AD1D0019703D /* AppDelegate.m */,
+				17DCCF8E1878C7B20019703D /* Main.storyboard */,
 				17DCCF701878AD1D0019703D /* Images.xcassets */,
 				17DCCF6D1878AD1D0019703D /* ToDoList.xcdatamodeld */,
 				17DCCF621878AD1D0019703D /* Supporting Files */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DCCF8F1878C7B20019703D /* Main.storyboard in Resources */,
 				17DCCF661878AD1D0019703D /* InfoPlist.strings in Resources */,
 				17DCCF711878AD1D0019703D /* Images.xcassets in Resources */,
 			);
